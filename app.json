@@ -4,9 +4,18 @@
   "expo": {
     "name": "yoFioChallenge",
     "slug": "yoFioChallenge",
+    "icon": "./assets/devico.png",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.yofio.challenge",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.yofio.challenge",
+      "versionCode": 1
+    }
   }
 }

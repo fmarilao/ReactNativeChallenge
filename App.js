@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Image, Text, View, TextInput, Button, Alert } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button, Alert } from 'react-native';
 import { Formik } from 'formik'
 import * as yup from 'yup'
 import DatePicker from 'react-native-date-picker'
@@ -136,11 +136,6 @@ export default function App() {
             androidVariant="nativeAndroid"
             mode="date"
           />
-          {/* <View style={styles.imgContainer}>
-          <Image source={{uri: `http://simpleicon.com/wp-content/uploads/camera.png`}}
-               style={styles.image}
-           />
-          </View> */}
           <Button
             color="#3740FE"
             title='Guardar'
