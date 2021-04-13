@@ -1,20 +1,20 @@
 {
-  "name": "yoFioChallenge",
-  "displayName": "yoFioChallenge",
+  "name": "Challenge",
+  "displayName": "Challenge",
   "expo": {
-    "name": "yoFioChallenge",
-    "slug": "yoFioChallenge",
+    "name": "Challenge",
+    "slug": "Challenge",
     "icon": "./assets/devico.png",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.yofio.challenge",
+      "bundleIdentifier": "com.yo.challenge",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.yofio.challenge",
+      "package": "com.yo.challenge",
       "versionCode": 1
     }
   }
