@@ -1,8 +1,12 @@
-# Prueba técnica de YoFio
+# React Native App
 
-APP móvil y APK para ser instalado en un dispositivo físico.
+Form with 4 input fields: name, surname, email and date of birth.
 
-* Formulario con 4 campos de ingreso: nombre, apellido, email y fecha de nacimiento.
-* Se consume el servicio web indicado para el envío de todos los datos del formulario con una alerta de confirmación en caso que el envio sea correcto, indicando ahi mismo el id de resepuesta del servicio.
-* En el envío además se envia las coordenadas de ubicación actual de quien llena el formulario.
-* Dentro de la carpeta /Dist, se encuentra el archivo instalable .apk 
+## Features
+
+A web service is used to send all the data of the form with a confirmation alert in case the sending is correct, indicating the service response id there.
+Together with the form data, the current location coordinates of the device are sent.
+
+## Usage
+
+Inside the /Dist folder, you will find the installable .apk file to test on your own device.
