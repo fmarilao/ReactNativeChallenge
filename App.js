@@ -41,7 +41,8 @@ export default function App() {
 
   const handleSubmit = async (data) => {
     const { name, lastName, birthdate } = data
-    await axios.post('https://tech-challenge-v2.herokuapp.com/registration', {
+    //the api url was removed for proprietary reasons. This app was developed in a technical test
+    await axios.post('', {
       name,
       lastName,
       birthdate,
